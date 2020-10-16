@@ -1,0 +1,11 @@
+package com.kh.spring.demo.model.service;
+
+import org.springframework.stereotype.Service;
+
+//web mvc 프로젝트에서 service역활을 하는 객체를 spring-bean으로 등록하려면
+//@Service를 이용함
+
+@Service
+public class DemoServiceImpl implements DemoService{
+
+}

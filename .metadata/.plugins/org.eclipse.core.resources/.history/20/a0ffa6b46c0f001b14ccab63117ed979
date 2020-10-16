@@ -1,0 +1,14 @@
+package com.kh.spring.demo.model.vo;
+
+import lombok.Lombok;
+
+//vo객체를 만들때 중복코드가 많아~
+//vo객체의 생성자, setter,getter,toString, equals, hashcode 자동으로 생성해주는 
+//라이브러리가 있음 .=> lombock
+
+
+public class Demo extends Lombok{
+	
+	private String 
+
+}

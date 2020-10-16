@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+C:\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2370562099.index
+\01_HelloSpring\src\main\java
+C:\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\121460622.index
+\01_HelloSpring\src\main\java
+C:\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\862419545.index
+\01_HelloSpring\src\main\java
+C:\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\355269315.index
+\01_HelloSpring\src\main\java

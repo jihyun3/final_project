@@ -1,0 +1,7 @@
+package com.kh.spring.demo.model.vo;
+
+//@Repository
+@Repository
+public class DemoDaoImpl implements DemoDao {
+
+}

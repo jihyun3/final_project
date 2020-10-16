@@ -1,0 +1,32 @@
+package com.kh.spring.demo.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.kh.spring.demo.model.service.DemoService;
+
+//web mvc 프로젝트에서 controller 객체를 spring-bean으로 등록할때는
+//@Controller를 사용함.
+
+
+@Controller
+public class DemoController {
+	
+	@Autowired
+	@Qualifier("service")
+	private DemoService service;
+	
+	//클라이언트가 요청한 주소랑 매핑되는 메소드를 생성해서 처리
+	//주소와 매핑을 하기위해서는 @ReqeustMapping을 사용
+	
+	@RequestMapping("/demo/demo.do")
+	public String demo() {
+		System.out.println("mapping매소드 호출");
+		return "demo/demo";//ReqeustDispatcher.forward()
+	}
+	
+	@RequestMapping("demo/demo")
+
+}
