@@ -1,0 +1,24 @@
+settings 태그 MyBatis구동시 선언할 설정 작정
+	DB연결시 Connection에 대한 세부 설정을 줄숭 있음
+typeAliases 태그 MyBatis에서 구동하는 
+
+XML File -> mybatis-config.xml -> DTD file -> select
+
+인바이러먼츠스 여러개 만들수 있다 그중에 디폴트 값을 설정할 수 있다
+반드시 인바이러먼트가 들어가야 한다 인바이러 먼츠는 트랜젝션 메니저 데이터 소스가 필요하다
+
+트랜젝션매니저 type JDBC
+dataSource type POOLED
+셋팅은 맨위에 해줘야 한다
+
+코드를 한곳에 고치면 다른곳에도 고쳐야하면 강결합 상태
+
+인터페이스를 이용하면 약결합 상태
+
+public static SqlSession getSession(){
+	
+}
+
+매핑에서 파라미터타입 맵으로 하고 ${key값}으로 데이터가져오기 가능
+
+필드명 하고 컬럼명이 일치하면 자동으로 객체의 갯터 샛터를 이용해서 사용해줘 개꿀
